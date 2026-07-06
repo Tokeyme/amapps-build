@@ -1,0 +1,5 @@
+# build.amapps.app — bewusst nicht fuer Suchmaschinen bestimmt.
+# Crawling wird erlaubt, damit das noindex-Meta-Tag gelesen und respektiert wird.
+# Es gibt keine Sitemap und keine eingehenden Links auf diese Seite.
+User-agent: *
+Allow: /

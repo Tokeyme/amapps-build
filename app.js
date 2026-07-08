@@ -1,6 +1,8 @@
 // Zweisprachige Texte (DE / EN). Umschaltung über die DE/EN-Buttons oben rechts.
 const I18N = {
   de: {
+    brand: "AM · App-Entwicklung",
+    nav_back: "← zurück",
     hero_title: "Ich baue Ihre App-Idee fertig.",
     hero_sub: "iOS und Android aus einer Hand — KI-gestützt entwickelt, von einem Entwickler mit über 20 Jahren Erfahrung.",
     hero_cta: "Projekt anfragen",
@@ -25,9 +27,36 @@ const I18N = {
     contact_text: "Erzählen Sie mir von Ihrem Vorhaben — ich melde mich schnell und ehrlich zurück, was sich umsetzen lässt.",
     contact_cta: "E-Mail schreiben",
     footer_imprint: "Impressum",
-    footer_privacy: "Datenschutz"
+    footer_privacy: "Datenschutz",
+    footer_home: "← Startseite",
+    // Impressum
+    imp_title: "Impressum",
+    imp_intro: "Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz):",
+    imp_addr: "Andreas Maier<br>Dürerstr. 14<br>73547 Lorch<br>Deutschland",
+    imp_contact_h: "Kontakt",
+    imp_contact_p: "E-Mail: andreas_maier@me.com",
+    imp_resp_h: "Verantwortlich für den Inhalt",
+    imp_resp_p: "Andreas Maier (Anschrift wie oben)",
+    imp_liab_h: "Haftung für Inhalte und Links",
+    imp_liab_p: "Die Inhalte dieser Seite wurden mit größtmöglicher Sorgfalt erstellt. Für Richtigkeit, Vollständigkeit und Aktualität wird keine Gewähr übernommen. Für die Inhalte externer Links sind ausschließlich deren Betreiber verantwortlich.",
+    // Datenschutz
+    dp_title: "Datenschutzerklärung",
+    dp1_h: "1. Verantwortlicher",
+    dp1_addr: "Andreas Maier<br>Dürerstr. 14, 73547 Lorch, Deutschland<br>E-Mail: andreas_maier@me.com",
+    dp2_h: "2. Aufruf dieser Website (Server-Logs)",
+    dp2_p: "Beim Aufruf dieser Website werden durch den Hosting-Anbieter automatisch Daten in Server-Logfiles gespeichert, die Ihr Browser übermittelt: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite sowie verwendeter Browser und Betriebssystem. Die Verarbeitung erfolgt zur technischen Bereitstellung und Sicherheit der Website auf Grundlage unseres berechtigten Interesses (Art. 6 Abs. 1 lit. f DSGVO). Die Logdaten werden nach kurzer Zeit gelöscht, soweit sie nicht für Sicherheitszwecke benötigt werden.",
+    dp3_h: "3. Keine Cookies, kein Tracking",
+    dp3_p: "Diese Website setzt keine Cookies und verwendet keine Analyse- oder Tracking-Dienste. Ihre Sprachauswahl (DE/EN) wird ausschließlich lokal in Ihrem Browser gespeichert und nicht an mich oder Dritte übertragen.",
+    dp4_h: "4. Kontaktaufnahme",
+    dp4_p: "Wenn Sie mich per E-Mail kontaktieren, verarbeite ich Ihre Angaben ausschließlich zur Bearbeitung Ihrer Anfrage (Art. 6 Abs. 1 lit. b und f DSGVO). Die Daten werden gelöscht, sobald sie nicht mehr benötigt werden und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.",
+    dp5_h: "5. Externe Links",
+    dp5_p: "Diese Website verlinkt auf externe Angebote (z. B. App Store, Google Play). Für deren Inhalte und den dortigen Datenschutz sind ausschließlich die jeweiligen Anbieter verantwortlich.",
+    dp6_h: "6. Ihre Rechte",
+    dp6_p: "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht auf Beschwerde bei einer Datenschutz-Aufsichtsbehörde."
   },
   en: {
+    brand: "AM · App Development",
+    nav_back: "← Back",
     hero_title: "I build your app idea, start to finish.",
     hero_sub: "iOS and Android from a single source — AI-assisted, by a developer with 20+ years of experience.",
     hero_cta: "Request a project",
@@ -52,7 +81,32 @@ const I18N = {
     contact_text: "Tell me about your project — I'll get back to you quickly and honestly about what's possible.",
     contact_cta: "Send an email",
     footer_imprint: "Legal notice",
-    footer_privacy: "Privacy"
+    footer_privacy: "Privacy",
+    footer_home: "← Home",
+    // Impressum / Legal notice
+    imp_title: "Legal Notice",
+    imp_intro: "Information pursuant to § 5 DDG (German Digital Services Act):",
+    imp_addr: "Andreas Maier<br>Dürerstr. 14<br>73547 Lorch<br>Germany",
+    imp_contact_h: "Contact",
+    imp_contact_p: "Email: andreas_maier@me.com",
+    imp_resp_h: "Responsible for the content",
+    imp_resp_p: "Andreas Maier (address as above)",
+    imp_liab_h: "Liability for content and links",
+    imp_liab_p: "The contents of this page were created with the utmost care. No guarantee is given for the accuracy, completeness or timeliness. The operators of external links are solely responsible for their content.",
+    // Datenschutz / Privacy policy
+    dp_title: "Privacy Policy",
+    dp1_h: "1. Controller",
+    dp1_addr: "Andreas Maier<br>Dürerstr. 14, 73547 Lorch, Germany<br>Email: andreas_maier@me.com",
+    dp2_h: "2. Accessing this website (server logs)",
+    dp2_p: "When you access this website, the hosting provider automatically stores data in server log files that your browser transmits: IP address, date and time of access, the page accessed, and the browser and operating system used. Processing takes place for the technical provision and security of the website on the basis of our legitimate interest (Art. 6(1)(f) GDPR). The log data is deleted after a short time, unless it is required for security purposes.",
+    dp3_h: "3. No cookies, no tracking",
+    dp3_p: "This website does not set any cookies and does not use any analytics or tracking services. Your language selection (DE/EN) is stored exclusively locally in your browser and is not transmitted to me or any third parties.",
+    dp4_h: "4. Contacting me",
+    dp4_p: "If you contact me by email, I process your details exclusively to handle your request (Art. 6(1)(b) and (f) GDPR). The data is deleted as soon as it is no longer needed and no statutory retention obligations apply.",
+    dp5_h: "5. External links",
+    dp5_p: "This website links to external services (e.g. App Store, Google Play). The respective providers are solely responsible for their content and their data protection.",
+    dp6_h: "6. Your rights",
+    dp6_p: "You have the right to access, rectification, erasure, restriction of processing, data portability and objection, as well as the right to lodge a complaint with a data protection supervisory authority."
   }
 };
 
@@ -62,6 +116,10 @@ function applyLang(lang){
   document.querySelectorAll("[data-i18n]").forEach(function(el){
     var k = el.getAttribute("data-i18n");
     if(I18N[lang][k] != null) el.textContent = I18N[lang][k];
+  });
+  document.querySelectorAll("[data-i18n-html]").forEach(function(el){
+    var k = el.getAttribute("data-i18n-html");
+    if(I18N[lang][k] != null) el.innerHTML = I18N[lang][k];
   });
   document.querySelectorAll(".lang-switch button").forEach(function(b){
     b.classList.toggle("active", b.getAttribute("data-lang") === lang);
